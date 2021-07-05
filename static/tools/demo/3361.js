@@ -1,0 +1,2 @@
+htmlstr = "<div>\n  <p>\u83dc\u9e1f\u6559\u7a0b -- \u5b66\u7684\u4e0d\u4ec5\u662f\u6280\u672f\uff0c\u66f4\u662f\u68a6\u60f3\uff01\uff01\uff01<\/p>\n  <p>\u83dc\u9e1f\u6559\u7a0b -- \u5b66\u7684\u4e0d\u4ec5\u662f\u6280\u672f\uff0c\u66f4\u662f\u68a6\u60f3\uff01\uff01\uff01<\/p>\n<\/div>";
+cssstr = "div {\n    position: absolute;\n    right: 0px;\n    width: 300px;\n    background-color: #b0e0e6;\n}";

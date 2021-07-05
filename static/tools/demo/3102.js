@@ -1,0 +1,3 @@
+htmlstr = "<p>\n<button onclick=\"myMove()\">\u70b9\u6211<\/button> \n<\/p>\n\n<div id =\"myContainer\">\n<div id =\"myAnimation\"><\/div>\n<\/div>";
+cssstr = "#myContainer {\n  width: 400px;\n  height: 400px;\n  position: relative;\n  background: yellow;\n}\n#myAnimation {\n  width: 50px;\n  height: 50px;\n  position: absolute;\n  background-color: red;\n}";
+jsstr = "function myMove() {\n  var elem = document.getElementById(\"myAnimation\");   \n  var pos = 0;\n  var id = setInterval(frame, 10);\n  function frame() {\n    if (pos == 350) {\n      clearInterval(id);\n    } else {\n      pos++; \n      elem.style.top = pos + 'px'; \n      elem.style.left = pos + 'px'; \n    }\n  }\n}";

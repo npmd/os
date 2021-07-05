@@ -1,0 +1,2 @@
+htmlstr = "<p>\n JavaScript \u5224\u65ad\u662f\u5426\u5728\u5fae\u4fe1\u6d4f\u89c8\u5668\u4e2d\u6253\u5f00\u3002\n<\/p>\n<hr>";
+jsstr = "function is_weixn(){  \n    var ua = navigator.userAgent.toLowerCase();  \n    if(ua.match(\/MicroMessenger\/i)==\"micromessenger\") {  \n        return true;  \n    } else {  \n        return false;  \n    }  \n}  \n\nif( is_weixn() ) {\n    document.write(\"\u5fae\u4fe1\u6d4f\u89c8\u5668\")\n} else {\n    document.write(\"\u5176\u4ed6\u6d4f\u89c8\u5668\")\n}";

@@ -1,0 +1,17 @@
+var cdn_static = "https://cdn.jsdelivr.net/gh/aiservice/os/static/";
+// var cdn_static = "";
+var app_name = "开源教程";
+var app_domain = "www.ossoft.cn";
+var baid = "297e701587c3bbbc208238ab0c23f228";
+document.writeln('<link rel="shortcut icon" href="' + cdn_static + 'images/favicon.ico" mce_href="' + cdn_static + 'images/favicon.ico" type="image/x-icon">');
+document.writeln('<link rel="stylesheet" href="' + cdn_static + 'styles/style.css" type="text/css" media="all"/>');
+document.writeln('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" media="all"/>');
+document.writeln('<!--[if gte IE 9]><!-->');
+document.writeln('<script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>');
+document.writeln('<!--<![endif]-->');
+document.writeln('<!--[if lt IE 9]>');
+document.writeln('<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>');
+document.writeln('<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>');
+document.writeln(' <![endif]-->');
+document.writeln('<link rel="apple-touch-icon" href="' + cdn_static + 'images/icon/mobile-icon.png"/>');
+document.writeln('<meta name="apple-mobile-web-app-title" content="' + app_name + '">');

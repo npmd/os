@@ -1,0 +1,3 @@
+htmlstr = "<h1>JavaScript \u8fdb\u5ea6\u6761<\/h1>\n\n<div id=\"myProgress\">\n  <div id=\"myBar\"><\/div>\n<\/div>\n\n<br>\n<button onclick=\"move()\">\u70b9\u6211<\/button>";
+cssstr = "#myProgress {\n  width: 100%;\n  background-color: #ddd;\n}\n\n#myBar {\n  width: 1%;\n  height: 30px;\n  background-color: #4CAF50;\n}";
+jsstr = "function move() {\n  var elem = document.getElementById(\"myBar\");   \n  var width = 1;\n  var id = setInterval(frame, 10);\n  function frame() {\n    if (width >= 100) {\n      clearInterval(id);\n    } else {\n      width++; \n      elem.style.width = width + '%'; \n    }\n  }\n}";

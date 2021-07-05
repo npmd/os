@@ -1,4 +1,4 @@
-var cdn_static = "https://cdn.jsdelivr.net/gh/aiservice/os/static/";
+var cdn_static = "https://cdn.jsdelivr.net/gh/npmd/os@latest/static/";
 // var cdn_static = "";
 var app_name = "开源教程";
 var app_domain = "www.ossoft.cn";

@@ -37,6 +37,8 @@ document.writeln('<div class="container navigation">\n' +
     '                <li><a href="/bootstrap/">BOOTSTRAP</a></li>\n' +
     '                <li><a href="/minjs/index.html">JS压缩/格式化</a></li>\n' +
     '                <li><a href="/fanti/index.html">文字简繁转换</a></li>\n' +
+    '                <li><a href="http://pic.ossoft.cn" target="_blank">图片在线编辑</a></li>\n' +
+    '                <li><a href="http://audio.ossoft.cn" target="_blank">音频在线编辑</a></li>\n' +
     '            </ul>\n' +
     '        </div>\n' +
     '    </div>\n' +
